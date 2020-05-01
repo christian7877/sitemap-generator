@@ -6,7 +6,8 @@
   "description": "Use chrome browser to generate sitemaps for your websites. This extension crawls website like a real user.",
   "dependencies": {
     "extension-cli": "^0.8.7",
-    "standard-version": "^7.0.1"
+    "standard-version": "^7.0.1",
+    "snyk": "^1.316.1"
   },
   "scripts": {
     "start": "xt-build -e dev -w",
@@ -14,7 +15,9 @@
     "clean": "xt-clean",
     "docs": "xt-docs",
     "test": "xt-test",
-    "release": "git add . && git commit && standard-version"
+    "release": "git add . && git commit && standard-version",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "babel": {
     "presets": [
@@ -56,5 +59,6 @@
         "src": "./src/process/process.js"
       }
     ]
-  }
+  },
+  "snyk": true
 }
