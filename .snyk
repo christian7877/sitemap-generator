@@ -1,0 +1,82 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - extension-cli > @babel/register > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > eslint > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > sinon-chrome > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > eslint > inquirer > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > eslint > table > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > jsdoc > catharsis > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > jsdoc > requizzle > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > gulp-sass > node-sass > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > mocha > yargs-unparser > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - standard-version > conventional-changelog > conventional-changelog-conventionalcommits > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - standard-version > conventional-recommended-bump > conventional-commits-parser > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - standard-version > conventional-changelog > conventional-changelog-core > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > nyc > istanbul-lib-instrument > @babel/core > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > foodoc > grunt > grunt-legacy-log > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > foodoc > grunt > grunt-legacy-util > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > foodoc > jsdoc > catharsis > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > foodoc > jsdoc > requizzle > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > gulp-sass > node-sass > sass-graph > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > sinon-chrome > sinon > @sinonjs/samsam > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - standard-version > conventional-changelog > conventional-changelog-core > conventional-changelog-writer > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - standard-version > conventional-changelog > conventional-changelog-core > conventional-commits-parser > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > nyc > istanbul-lib-instrument > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > foodoc > grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > gulp-sass > node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > sinon-chrome > sinon > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > sinon-chrome > sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > nyc > istanbul-lib-instrument > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
+    - extension-cli > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T02:46:47.982Z'
